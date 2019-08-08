@@ -1,0 +1,8 @@
+?>nslookup 192.168.22.14
+Server:		192.168.50.2
+Address:	192.168.50.2#53
+
+14.22.168.192.in-addr.arpa	name = at-b2.21-school.ru.
+
+?>hostname
+at-b2.21-school.ru

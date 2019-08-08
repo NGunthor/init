@@ -1,0 +1,1 @@
+networksetup -getinfo Ethernet | grep -w "^IP" | cut -d ' ' -f 3

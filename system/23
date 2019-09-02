@@ -1,13 +1,14 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    21                                                 :+:      :+:    :+:    #
+#    23                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: ngunthor <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/09/02 13:42:09 by ngunthor          #+#    #+#              #
-#    Updated: 2019/09/02 13:42:12 by ngunthor         ###   ########.fr        #
+#    Created: 2019/09/02 13:42:22 by ngunthor          #+#    #+#              #
+#    Updated: 2019/09/02 13:42:24 by ngunthor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-cat /etc/passwd | grep home | cut -d : -f1
+graph: via login and passwd
+ssh: ssh username@ipaddr and put the passwd

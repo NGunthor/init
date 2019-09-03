@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for obj in $1/*; do
+	if [ -d "$obj" ]; then
+		echo "d\t$obj"
+	elif [ -f "$obj" ]; then
+		echo "f\t$obj"
+	fi
+done
